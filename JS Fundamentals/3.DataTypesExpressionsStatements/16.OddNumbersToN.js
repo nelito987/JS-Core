@@ -9,4 +9,4 @@ function solve(num) {
     }
 }
 
-console.log(solve(7));
+solve(11);
