@@ -272,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496833395211</updated>
       <workItem from="1496833397251" duration="6819000" />
-      <workItem from="1497015488637" duration="1000" />
+      <workItem from="1497015488637" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6820000" />
+    <option name="totallyTimeSpent" value="7258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2050" y="30" width="1400" height="1000" extended-state="0" />
@@ -368,6 +368,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1496833640982" expanded="false" signature="0:46" ph="/** Created by nkondova on 7.6.2017 г.. ...*/" />
+            <marker date="1496833640982" expanded="true" signature="81:131" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -375,6 +379,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1496833724861" expanded="false" signature="0:46" ph="/** Created by nkondova on 7.6.2017 г.. ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -382,6 +389,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1496833869481" expanded="false" signature="0:46" ph="/** Created by nkondova on 7.6.2017 г.. ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,6 +399,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1496833938078" expanded="false" signature="0:46" ph="/** Created by nkondova on 7.6.2017 г.. ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,6 +409,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1496834313708" expanded="false" signature="0:46" ph="/** Created by nkondova on 7.6.2017 г.. ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
