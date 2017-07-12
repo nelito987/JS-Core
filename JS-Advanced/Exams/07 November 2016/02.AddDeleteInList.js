@@ -22,7 +22,7 @@ let list = (function(){
 })();
 
 describe('List function tests', function () {
-    let list;
+   /* let list;
     beforeEach(function () {
         list = (function () {
             let data = [];
@@ -43,7 +43,7 @@ describe('List function tests', function () {
             };
         })();
     });
-
+*/
     it('should be empty on init', function () {
         expect(list.toString()).to.equal('');
     });
@@ -80,6 +80,29 @@ describe('List function tests', function () {
     it('Should have delete method', function () {
         expect(list.hasOwnProperty('delete')).to.equal(true);
         expect(typeof list.delete).to.equal('function');
+    });
+
+    it('Should return undefined on invalid index on delete', function () {
+        list.add(1);
+        expect(list.delete(-1)).to.equal(undefined);
+        expect(list.delete("0")).to.equal(undefined);
+        expect(list.delete(2)).to.equal(undefined);
+    });
+
+    it('Scould delete an item on delete', function () {
+       list.add(1);
+       list.add(2);
+       list.add(3);
+       expect(list.delete(1)).to.equal(2);
+       expect(list.delete(1)).to.equal(3);
+    });
+    it('Should return undefined for empty list', function () {
+        let result = list.delete(0);
+        expect(result).to.be.undefined;
+    });
+    it('Should return undefined for fraction input params', function () {
+        let result = list.delete(5.5);
+        expect(result).to.be.undefined;
     });
 
     //toString tests
